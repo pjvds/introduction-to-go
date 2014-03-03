@@ -1,0 +1,71 @@
+The Go Programming Language
+19:00 6 Mar 2014
+Tags: introduction, go, joy of coding
+
+Pieter Joost van de Sande
+Gopher, Happy Pancake
+
+@pjvds
+http://born2code.net
+
+* Go
+
+- New
+- Experimental
+- Concurrent
+- Garbage-collected
+- Systems language
+- Staticly typed
+
+* Hello, world
+
+.play helloworld.go
+
+* The origins of Go
+
+Developed by:
+
+- *Robert* *Griesemer*: Google V8 GoogleFS 
+- *Rob* *Pike*: Newsqueak, Plan9 OS, Limbo programming language  
+- *Ken* *Thompson*: Unix, B programming language, UTF-8
+
+Timeline:
+
+- 2007: started
+- 2009: open sourced
+- 2012: version 1
+
+* Go's design goals
+
+	"The goals of the Go project were to eliminate the slowness and clumsiness of
+	 software development at Google"
+
+source: "Go at Google: Language Design in the Service of Software Engineering"
+
+* Simple
+
+- Small
+- Readable
+- Consistant
+- Predictable
+- Robust
+- Safe
+- Useful by default
+
+* Go at a glance
+
+- Compiled
+- Staticly typed
+- Clean syntax
+- Concurrent primitives
+- Rich standard library
+- Great tools
+- Open source
+
+* Web server
+
+.play helloworld-webserver.go
+
+* Go Routines
+
+.play goroutines.go /START OMIT/,/END OMIT/
