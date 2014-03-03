@@ -66,6 +66,18 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
 
 .play helloworld-webserver.go
 
-* Go Routines
+* Boring method
 
-.play goroutines.go /START OMIT/,/END OMIT/
+.code goroutines/1.go /^func count/,/^}/
+
+* Invoke it
+
+.play goroutines/1.go /START OMIT/,/END OMIT/
+
+* Two counting
+
+.play goroutines/2.go /START OMIT/,/END OMIT/
+
+* Count together
+
+.play goroutines/3.go /START OMIT/,/END OMIT/
