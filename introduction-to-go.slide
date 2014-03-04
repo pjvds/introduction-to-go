@@ -129,6 +129,14 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
 
 .code access-modifiers/1.go /START OMIT/,/END OMIT/
 
+* Confusing?
+
+.image images/question.png 551 766
+
+* Just look at this matrix
+
+.image images/answer1.png 658 784
+
 * Web server
 
 .play helloworld-webserver.go
