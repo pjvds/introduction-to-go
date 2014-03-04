@@ -137,6 +137,16 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
 
 .image images/answer1.png 658 784
 
+* Go formatting
+
+* Before
+
+.code fmt/before.go
+
+* After
+
+.code fmt/after.go
+
 * Web server
 
 .play helloworld-webserver.go
