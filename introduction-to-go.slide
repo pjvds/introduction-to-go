@@ -62,9 +62,78 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
 - Great tools
 - Open source
 
+* Simple
+
+* Language spec size
+
+- *Go,* *43* *pages*
+- Scheme, 50 pages
+- Javascript, 245 pages
+- Smalltalk, 304 pages
+- Haskell, 309 pages
+- Ruby, 311 pages
+- C#, 512 pages
+- C, 538 pages
+- Java, 644 pages
+- C++, 879 pages
+
+* Key words
+
+- Smalltalk (6)
+- *Go* *(25):*
+- C# (104)
+- Java (50)
+- Ruby (43)
+
+* Go keywords
+
+    break        default      func         interface    select
+    case         defer        go           map          struct
+    chan         else         goto         package      switch
+    const        fallthrough  if           range        type
+    continue     for          import       return       var
+
+* C# keywords
+
+    abstract    descending  implicit    params          this
+    add         do          in          partial         throw
+    alias       double      in          partial (type)  true
+    as          dynamic     int         private         try
+    ascending   else        interface   protected       typeof
+    async       enum        internal    public          uint
+    await       event       into        readonly        ulong
+    base        explicit    is          ref             unchecked
+    bool        extern      join        remove          unsafe
+    break       false       let         return          ushort
+    byte        finally     lock        sbyte           using
+    case        fixed       long        sealed          value
+    catch       float       namespace   select          var
+    char        for         new         set             virtual
+    checked     foreach     null        short           void
+    class       from        object      sizeof          volatile
+    const       get         operator    stackalloc      where (generic type constraint)
+    continue    global      orderby     static          where (query clause)
+    decimal     goto        out         string          while
+    default     group       out (generic modifier)      struct  
+    delegate    if          override    switch          yield
+
+* What?!
+
+.iframe http://stackoverflow.com/questions/215497/in-java-whats-the-difference-between-public-default-protected-and-private/
+
+* Access modifier, members
+
+.code access-modifiers/1.go /^type MyStruct/,/^}/
+
+* Access modifier, func
+
+.code access-modifiers/1.go /START OMIT/,/END OMIT/
+
 * Web server
 
 .play helloworld-webserver.go
+
+* Go Routines
 
 * Boring method
 
@@ -81,3 +150,6 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
 * Count together
 
 .play goroutines/3.go /START OMIT/,/END OMIT/
+
+* Channels
+
