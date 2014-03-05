@@ -117,10 +117,6 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
     default     group       out (generic modifier)      struct  
     delegate    if          override    switch          yield
 
-* What?!
-
-.iframe http://stackoverflow.com/questions/215497/in-java-whats-the-difference-between-public-default-protected-and-private/
-
 * Access modifier, members
 
 .code access-modifiers/1.go /^type MyStruct/,/^}/
