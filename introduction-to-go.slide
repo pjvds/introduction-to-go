@@ -117,6 +117,12 @@ source: "Go at Google: Language Design in the Service of Software Engineering"
     default     group       out (generic modifier)      struct  
     delegate    if          override    switch          yield
 
+* 12 exersises to rule them all!
+
+* Each exersise has its own directory.
+* Run the code by `cd` into the dir and exec: `go run main.go`
+* I'm here to help.
+
 * Access modifier, members
 
 .code access-modifiers/1.go /^type MyStruct/,/^}/
